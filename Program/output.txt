@@ -1,0 +1,169 @@
+
+
+NEW TEST
+
+Matrix 1:
+7 0 0 0 
+0 0 5 0 
+4 0 9 0 
+0 7 0 0 
+0 2 1 0 
+Matrix 2:
+0 6 
+6 0 
+0 4 
+0 0 
+
+Print as sparse matrix
+
+Matrix 1:
+0     1     2     2     3     4     4     
+0     2     0     2     1     1     2     
+7     5     4     9     7     2     1     
+Matrix 2:
+0     1     2     
+1     0     1     
+6     6     4     
+
+Multiplication of matrices
+
+The product matrix represented as normal matrix
+
+0 42 
+0 20 
+0 60 
+42 0 
+12 4 
+The product matrix represented as sparse matrix
+
+0     1     2     3     4     4     
+1     1     1     0     0     1     
+42     20     60     42     12     4     
+
+NEW TEST
+
+Matrix 1:
+0 0 8 0 
+Matrix 2:
+0 2 4 0 0 
+
+Print as sparse matrix
+
+Matrix 1:
+0     
+2     
+8     
+Matrix 2:
+0     0     
+1     2     
+2     4     
+
+Addition of matrixes
+
+Error: The matrices doesn't have the same number of lines and columns
+
+Matrix1 lines columns: 1 4
+Matrix2 lines columns: 1 5
+
+
+NEW TEST
+
+Matrix 1:
+0 9 5 0 0 
+2 7 0 1 0 
+0 3 0 0 0 
+Matrix 2:
+0 0 0 0 0 
+5 0 2 0 8 
+0 0 1 0 0 
+0 0 10 2 0 
+0 3 0 0 7 
+
+Print as sparse matrix
+
+Matrix 1:
+0     0     1     1     1     2     
+1     2     0     1     3     1     
+9     5     2     7     1     3     
+Matrix 2:
+1     1     1     2     3     3     4     4     
+0     2     4     2     2     3     1     4     
+5     2     8     1     10     2     3     7     
+
+Multiplication of matrices
+
+The product matrix represented as normal matrix
+
+45 0 23 0 72 
+35 0 24 2 56 
+15 0 6 0 24 
+The product matrix represented as sparse matrix
+
+0     0     0     1     1     1     1     2     2     2     
+0     2     4     0     2     3     4     0     2     4     
+45     23     72     35     24     2     56     15     6     24     
+
+NEW TEST
+
+Matrix 1:
+0 0 0 0 1 
+0 9 6 3 0 
+Matrix 2:
+9 9 0 0 0 
+0 2 0 0 9 
+
+Print as sparse matrix
+
+Matrix 1:
+0     1     1     1     
+4     1     2     3     
+1     9     6     3     
+Matrix 2:
+0     0     1     1     
+0     1     1     4     
+9     9     2     9     
+
+Addition of matrixes
+
+The summ matrix represented as normal matrix
+9 9 0 0 1 
+0 11 6 3 9 
+The summ matrix represented as sparse matrix
+0     0     0     1     1     1     1     
+0     1     4     1     2     3     4     
+9     9     1     11     6     3     9     
+
+NEW TEST
+
+Matrix 1:
+6 6 0 
+0 0 9 
+0 0 0 
+Matrix 2:
+7 0 4 0 0 
+0 1 0 0 0 
+0 0 0 9 5 
+
+Print as sparse matrix
+
+Matrix 1:
+0     0     1     
+0     1     2     
+6     6     9     
+Matrix 2:
+0     0     1     2     2     
+0     2     1     3     4     
+7     4     1     9     5     
+
+Multiplication of matrices
+
+The product matrix represented as normal matrix
+
+42 6 24 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+The product matrix represented as sparse matrix
+
+0     0     0     
+0     1     2     
+42     6     24     
