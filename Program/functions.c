@@ -3,6 +3,7 @@
 ///\brief Implements the summ and the product of two sparse matrices,
 ///\brief  the conversions between a normal matrix and a sparse one
 /// \brief and the printing of the matrices in both formes.
+///\brief this is a test
 #include<stdlib.h>
 #include<stdio.h>
 
